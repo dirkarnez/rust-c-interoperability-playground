@@ -4,6 +4,7 @@ With focus on Linux source code
 
 ### FFI
 - [linux/rust/ffi.rs at master · torvalds/linux](https://github.com/torvalds/linux/blob/master/rust/ffi.rs)
+- [Linux 核心採納 Rust 的狀況 - HackMD](https://hackmd.io/@linD026/rust-in-linux-organize)
 
 ### Memory
 - [Linux 6.18 To Allow Rust And C Code To Use The Same Memory Model - Phoronix](https://www.phoronix.com/news/Rust-Atomic-LKMM-Linux-6.18)
