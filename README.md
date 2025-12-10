@@ -18,3 +18,6 @@ With focus on Linux source code
 ### Scripts
 - [linux/scripts/generate_rust_target.rs at master · torvalds/linux](https://github.com/torvalds/linux/blob/master/scripts/generate_rust_target.rs)
 - [linux/scripts/rustc-version.sh at master · torvalds/linux](https://github.com/torvalds/linux/blob/master/scripts/rustc-version.sh)
+
+### Non-Linux
+- [watchman/build/fbcode_builder/CMake/RustStaticLibrary.cmake at 61661233a69167369de9a654faff72ed17fb6b0d · facebook/watchman](https://github.com/facebook/watchman/blob/61661233a69167369de9a654faff72ed17fb6b0d/build/fbcode_builder/CMake/RustStaticLibrary.cmake#L331)
