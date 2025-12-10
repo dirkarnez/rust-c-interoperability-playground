@@ -21,3 +21,4 @@ With focus on Linux source code
 
 ### Non-Linux
 - [watchman/build/fbcode_builder/CMake/RustStaticLibrary.cmake at 61661233a69167369de9a654faff72ed17fb6b0d · facebook/watchman](https://github.com/facebook/watchman/blob/61661233a69167369de9a654faff72ed17fb6b0d/build/fbcode_builder/CMake/RustStaticLibrary.cmake#L331)
+- [corrosion-rs/corrosion: Marrying Rust and CMake - Easy Rust and C/C++ Integration!](https://github.com/corrosion-rs/corrosion)
