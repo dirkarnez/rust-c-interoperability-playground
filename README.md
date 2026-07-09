@@ -4,6 +4,9 @@ rust-c-interoperability-playground
 
 With focus on studying Linux source code
 
+### TODOs
+- [ ] ESP32
+
 ### Tools
 - [mozilla/cbindgen: A project for generating C bindings from Rust code](https://github.com/mozilla/cbindgen)
 
