@@ -1,6 +1,11 @@
 rust-c-interoperability-playground
 ==================================
-With focus on Linux source code
+<kbd>[**vscode-web-action**](https://github.com/dirkarnez/vscode-web-action/actions/workflows/vscode-web.yml)</kbd><br>
+
+With focus on studying Linux source code
+
+### Tools
+- [mozilla/cbindgen: A project for generating C bindings from Rust code](https://github.com/mozilla/cbindgen)
 
 ### FFI
 - [linux/rust/ffi.rs at master · torvalds/linux](https://github.com/torvalds/linux/blob/master/rust/ffi.rs)
