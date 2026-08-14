@@ -6,7 +6,7 @@ RUSTFLAGS = -O
 CARGO = cargo
 
 # The default target that runs when you just type 'make'
-all: main_c rustylib
+all: rustylib main_c
 
 # Rule to compile the executable
 main_c: ./app/src/main.c
@@ -17,4 +17,5 @@ rustylib: ./lib/rusty/calculator.rs
 	$(CARGO) build --release
 
 clean:
-	rm -f hello_c hello_rust
+	rm -rf ./main_c
+	rm -rf ./lib/rusty/target
