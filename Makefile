@@ -10,7 +10,7 @@ all: main_c rustylib
 
 # Rule to compile the executable
 main_c: ./app/src/main.c
-	$(CC) $(CFLAGS)  ./app/src/main.c -L./lib/rusty/target/release/ -l:libmy_rust_lib.a -o ./main_c-lm
+	$(CC) $(CFLAGS) ./app/src/main.c -I./lib/rusty -L./lib/rusty/target/release/ -l:libmy_rust_lib.a -o ./main_c -lm
 
 rustylib: ./lib/rusty/calculator.rs
 	cd ./lib/rusty && \

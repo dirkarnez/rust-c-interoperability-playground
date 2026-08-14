@@ -1,1 +1,4 @@
 lib/rusty/target
+main_c
+main
+*.exe
