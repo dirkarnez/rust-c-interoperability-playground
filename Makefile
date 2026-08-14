@@ -9,8 +9,8 @@ CARGO = cargo
 all: rustylib main_c
 
 # Rule to compile the executable
-main_c: ./app/src/main.c
-	$(CC) $(CFLAGS) ./app/src/main.c -I./lib/rusty -L./lib/rusty/target/release/ -l:libmy_rust_lib.a -o ./main_c -lm
+main_c: ./lib/rusty/target/release/librusty.a ./app/src/main.c
+	$(CC) $(CFLAGS) ./app/src/main.c -I./lib/rusty -L./lib/rusty/target/release/ -l:librusty.a -o ./main_c -lm
 
 rustylib: ./lib/rusty/calculator.rs
 	cd ./lib/rusty && \
